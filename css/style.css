@@ -1,0 +1,217 @@
+:root {
+    --mainColor: #2E3141;
+    --secondaryColor: #393C4B;
+    --acsentColor: #3AC5B7;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 2000px;
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-dark {
+    background-color: var(--mainColor) !important;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+section h3 {
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 3px solid;
+    border-color: var(--acsentColor);
+}
+
+/* Navbar */
+.nav-link {
+    color: #fff !important;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--acsentColor) !important;
+}
+
+.nav-dark {
+    background-color: #292A35 !important;
+    /* border-bottom: 3px solid #fff; */
+}
+
+#nav {
+    z-index: 10;
+}
+
+/* End Navbar */
+
+/* Hero */
+
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+#hero {
+    color: #fff;
+    /* min-height: 100vh; */
+    /* min-height: 600px; */
+    padding: 4.5rem 0;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+#hero h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+#hero .container .row {
+    min-height: 80vh;
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: var(--mainColor);
+    min-width: 12em;
+    padding: .65em 0;
+    font-weight: 600;
+    font-size: .94rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 8px rgba(0, 255, 236, 1);
+}
+
+.btn-custom2 {
+    background-color: var(--mainColor);
+    text-align: center;
+    color: var(--acsentColor);
+    border: 2px solid var(--acsentColor);
+    min-width: 12em;
+    padding: .65em 0;
+    font-weight: 600;
+    font-size: .94rem;
+}
+
+.btn-custom2:hover {
+    box-shadow: 0 0 6px rgba(62, 255, 236, 1);
+    color: #3EFFEC;
+}
+
+.sosial-icon svg {
+    margin: 0.7em;
+    margin-bottom: 1.875em;
+}
+
+/* End Hero */
+
+/* About */
+
+#about p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 200%;
+}
+
+#about {
+    background-color: var(--secondaryColor);
+    padding: 4.5rem 0;
+}
+
+#about b {
+    font-weight: 500;
+}
+
+/* End About */
+
+/* Skills */
+#skills {
+    min-height: 97vh;
+    padding: 4.5rem 0;
+}
+
+#skills img {
+    width: 15%;
+    margin: 0.625em;
+}
+
+#skills .card {
+    background-color: #545767;
+}
+
+#skills h4 {
+    color: #fff;
+    font-weight: 700;
+}
+
+#skills p {
+    color: #C4C4C4;
+    font-weight: 400;
+}
+
+#skills .card:hover {
+    background-color: #414451;
+    cursor: pointer;
+}
+
+/* End Skills */
+
+/* Certificate */
+#certificate {
+    margin-top: -16.875em;
+    padding-top: 16.875em;
+    min-height: 21.71875em;
+    background-color: var(--secondaryColor);
+}
+
+#certificate img {
+    width: 49%;
+    padding: 10px;
+}
+
+#certificate a {
+    /* font-size: 1rem; */
+    color: #fff;
+    text-decoration: none;
+}
+
+#certificate a:hover {
+    color: var(--acsentColor);
+}
+
+/* End Certificate */
+
+/* Portfolio */
+#portfolio {
+    padding: 4.5rem 0;
+}
+
+/* End Portofolio */
+
+/* Footer */
+footer {
+    background-color: var(--acsentColor);
+}
+
+footer p {
+    margin-bottom: 0.8em;
+}
+
+footer a {
+    padding-right: 10px;
+}
+
+/* End Footer */

@@ -1,0 +1,126 @@
+@media screen and (max-width: 991px) {
+    .sosial-icon {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .btn-custom1,
+    .btn-custom2 {
+        width: 100%;
+    }
+
+    .btn-custom1 {
+        margin-bottom: 10px;
+    }
+
+    #hero .container .row {
+        min-height: 0;
+    }
+
+    #hero .row {
+        margin: 2rem 0;
+    }
+
+    #hero h2 {
+        font-size: 1.8rem;
+    }
+
+    #hero h1 {
+        font-size: 2.3rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    .btn-custom1 {
+        font-size: 1rem;
+    }
+
+    .btn-custom2 {
+        font-size: 1rem;
+    }
+
+    #about p {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #hero .row {
+        margin: 1rem 0;
+    }
+
+    #hero img {
+        width: 70%;
+    }
+
+    #about p {
+        text-align: justify;
+    }
+
+    #skills img {
+        width: 18%;
+    }
+
+    #skills br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #hero img {
+        width: 65%;
+    }
+
+    #hero h2 {
+        font-size: 1.8rem;
+    }
+
+    #hero h1 {
+        font-size: 2.3rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    .btn-custom1 {
+        font-size: 1rem;
+    }
+
+    .btn-custom2 {
+        font-size: 1rem;
+    }
+
+    #portfolio .col-md-12 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    #hero h2 {
+        font-size: 1.1rem;
+    }
+
+    #hero h1 {
+        font-size: 1.4rem;
+    }
+
+    #hero p {
+        font-size: 0.7rem;
+    }
+
+    .btn-custom1 {
+        font-size: 1rem;
+    }
+
+    .btn-custom2 {
+        font-size: 1rem;
+    }
+
+    #hero .row {
+        margin: 2.5rem 0;
+    }
+}
